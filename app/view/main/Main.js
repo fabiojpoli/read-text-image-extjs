@@ -51,11 +51,11 @@ Ext.define('ReadTextImage.view.main.Main', {
             collapsed: false,
             body: {
                 tpl:
-                    `&lt;p&gt;Words: &lt;br&gt;
-                        &lt;tpl for=&quot;words&quot;&gt;
-                            &lt;p&gt;{text} - confidence: {confidence * 100}%&lt;/p&gt;
-                        &lt;/tpl&gt;
-                    &lt;/p&gt;`
+                    `<p>Words: <br>
+                        <tpl for="words">
+                            <p>{text} - confidence: {confidence * 100}%</p>
+                        </tpl>
+                    </p>`
             }
         },
         bind: '{lines}',
